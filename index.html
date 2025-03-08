@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <section class="box">
+        <div class="main">
+            <div class="img_logo">
+                <img src="./images/vr 1.svg" alt="logo" class="logo">
+            </div>
+            <div class="pg">
+                <h1>Defy the Past <br>Step into the <br>Future</h1>
+            </div>
+            <div class="vr">
+                <img src="./images/pngwing 1.svg" alt="VR headset" class="vr-img">
+            </div>
+            </div>
+        </div>
+        
+        <section class="login">
+            <div class="drop-down">
+                <select name="Language" id="Language">
+                    <option value="English (UK)">English (UK)</option>
+                    <option value="Yoruba">Yoruba</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="French">French</option>
+                </select>
+            </div>
+            <!--Loggin Form-->
+            <form action="">
+                <div class="account">
+                    <h1>Create Account</h1>
+                </div>
+                <div class="input-box">
+                    <input type="text" name="Fullname" id="fullname" placeholder="Fullname" class="input-form">                    
+                </div>
+                <div class="input-box">
+                    <input type="text" name="email" id="" placeholder="Email" class="input-form">
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" class="input-form">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Confirm Password" class="input-form">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <div class="terms-and-c">
+                    
+                        <input type="checkbox" name="checkbox" id="terms">
+                        <span><p>I have read and agreed to the terms of Service and Privacy Policy</p></span>
+                </div>
+                <button type="submit">Create Account</button>
+            </form>
+
+            <!-- Google and Faceboook Signup-->
+            <p class="or">Or</p>
+            <div class="accounts">
+                <p>
+                    <ion-icon name="logo-google"></ion-icon>
+                    Signup with Google
+                </p>
+
+                <p>
+                    <ion-icon name="logo-facebook"></ion-icon>
+                    Signup with Facebook
+                </p>
+            </div>
+            <div class="already-account">
+                <p class="already">Already have an account? <span><a href="#">Log in</a></span></p>
+            </div>
+        </section>    
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>

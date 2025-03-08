@@ -1,0 +1,207 @@
+@font-face {
+    font-family: 'Humnst777 Blk BT';
+    src: url('fonts/Humnst777 Blk BT.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(./images/pexels-arist-creathrive-1183525-2253573\ \(1\).jpg);
+    font-family: 'Humnst777 Blk BT', sans-serif;
+}
+
+.box {
+    background: #51c8bc;
+    border-radius: 26px;
+    display: flex;
+    padding-left: 35px;
+    width: 1154px;
+    height: 758px;
+    overflow: hidden;
+    box-shadow: 0 0 10px 9px #bababa;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding: 20px;
+    border-radius: 26px;
+    position: relative;
+}
+
+.pg>h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    line-height: 100%;
+    position: relative;
+    top: 70px;
+}
+
+.account {
+    text-align: left;
+}
+
+h1 {
+    letter-spacing: 3px;
+    line-height: 35px;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+.logo {
+    width: 85px;
+    height: 52px;
+    top: 167px;
+    left: 177px;
+}
+
+.vr-img {
+    position: absolute;
+    width: 755px;
+    height: 566px;
+    left: -160px;
+    z-index: 1;
+}
+
+svg {
+    width: 20%;
+}
+
+.login {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 729px;
+    border-radius: 26px;
+    position: relative;
+    left: 65px;;
+}
+
+.drop-down {
+    position: relative;
+    left: 250px;
+    bottom: 70px;
+}
+
+.drop-down>select {
+    width: 140px;
+    height: 35px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 35px;
+    padding: 8px;
+    letter-spacing: 1px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-form {
+    width: 510px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #999;
+}
+
+.input-box>ion-icon {
+    position: relative;
+    right: 30px;
+}
+
+input, span p {
+    font-family: 'Humnst777 Blk BT', sans-serif;
+    font-size: 14px;
+    color: #999;  
+}
+
+.terms-and-c {
+    display: flex;
+    width: 461px;
+    height: 53px;
+    gap: 17px;
+}
+
+#terms {
+    width: 20px;
+    height: 20px;
+}
+
+button {
+    width: 513px;
+    height: 57px;
+    border-radius: 5px;
+    color: #fff;
+    background: #51c8bc;
+    border: none;
+    font-family: 'Humnst777 Blk BT', sans-serif;
+    letter-spacing: 2px;
+    font-size: 16px;
+    transition: background 1s, transform 1s 1s ease;
+}
+
+button:hover {
+    background: #295e58;
+    cursor: pointer;
+}
+
+.or {
+    text-align: center;
+    line-height: 3em;
+}
+
+.accounts {
+    display: flex;
+    justify-content: space-between;
+    width: 513px;
+}
+
+.already-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 70px; 
+}
+
+.already-account>p, .accounts>p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 35px;
+}
+
+.already-account>p {
+    letter-spacing: 1px;
+    color: #999;
+}
+
+a {
+    color: #51c8bc;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #295e58;
+    cursor: pointer;
+}
+

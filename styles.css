@@ -83,12 +83,12 @@ svg {
     background: #fff;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;clear
     align-items: center;
     width: 729px;
     border-radius: 26px;
     position: relative;
-    left: 65px;;
+    left: 65px;
 }
 
 .drop-down {

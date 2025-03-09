@@ -87,6 +87,7 @@ svg {
     align-items: center;
     width: 729px;
     border-radius: 26px;
+    padding: 99px;
     position: relative;
     left: 65px;
 }
@@ -107,6 +108,8 @@ svg {
     line-height: 35px;
     padding: 8px;
     letter-spacing: 1px;
+    position: absolute;
+    left: -70px;
 }
 
 form {

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">  
 </head>
 <body>
     <section class="box">
@@ -43,11 +44,11 @@
                 </div>
                 <div class="input-box">
                     <input type="password" placeholder="Password" class="input-form">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <i class="fas fa-eye"></i>   
                 </div>
                 <div class="input-box">
                     <input type="password" placeholder="Confirm Password" class="input-form">
-                    <ion-icon name="eye-outline"></ion-icon>
+                    <i class="fas fa-eye"></i>
                 </div>
                 <div class="terms-and-c">
                     
@@ -60,15 +61,19 @@
             <!-- Google and Faceboook Signup-->
             <p class="or">Or</p>
             <div class="accounts">
-                <p>
-                    <ion-icon name="logo-google"></ion-icon>
-                    Signup with Google
-                </p>
+                
+                <div class="google">
+                    <img width="20" height="20" src="https://img.icons8.com/color/100/google-logo.png" alt="google-logo"/>
+                    <p>
+                        <a href="#">Signup with Google</a>
+                    </p>
+                </div>
 
-                <p>
-                    <ion-icon name="logo-facebook"></ion-icon>
-                    Signup with Facebook
-                </p>
+                <div class="facebook">
+                    <img width="24" height="24" src="https://img.icons8.com/fluency/24/facebook-new.png" alt="facebook-new"/>
+                    <p><a href="#">Signup with Facebook</a></p>
+                </div>
+            
             </div>
             <div class="already-account">
                 <p class="already">Already have an account? <span><a href="#">Log in</a></span></p>

@@ -17,8 +17,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url(https://s3-alpha-sig.figma.com/img/869a/8c79/e44842e0a95b96aa69948da3009e4d5e?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=ZlbG8Ycb9Krg2x1~wLGAcA1kaOz375Ne59qQ17spYLJ1IxNdCB~2hlpx1s-Y6hS-02vo-dgjPltJUGRS-CKPPtHq5Bu22j-h1DUD01RUc9sQXn-LU9kFvA6vasdQL1RM4~3WZNX7i2gsmVR5Tqn4JlsH1~4rD-y38t8f8JUphMQmCmxK4ks2PoRIh1txuzM6gYvhT1YVIck-7WF8qWwZhyDl1B0D3fcLI3uZcXzFhU5roud5FPEicuzy2nNV1iJPSA1~zZRhzIuPhwYmOX61D9qLjbyXSLsi7E2z~iA~RBIAmcCMShbl-peevKRombWXoBYavP6-rJxr3YNj8F7o~A__);
+    background: url(./images/bg-image.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
     background-position: center center;
     font-family: 'Humnst777 Blk BT', sans-serif;
 }
@@ -31,7 +33,7 @@ body {
     width: 1154px;
     height: 758px;
     overflow: hidden;
-    box-shadow: 0 0 10px 9px #bababa;
+    box-shadow: 0 0 8px 8px #999999;
 }
 
 .main {
